@@ -11,7 +11,7 @@ import 'package:i10n_app/helper/theme_helper.dart';
 class ThemeModel with ChangeNotifier {
   ///主题颜色 key值
   static const kThemeColorIndex = 'kThemeColorIndex';
-  
+
   ///暗黑模式 key值
   static const kThemeUserDarkMode = 'kThemeUserDarkMode';
 
@@ -98,14 +98,14 @@ class ThemeModel with ChangeNotifier {
         primaryColor: themeColor,
         brightness: brightness,
       ),
-
       appBarTheme: themeData.appBarTheme.copyWith(elevation: 0),
       splashColor: themeColor.withAlpha(50),
       hintColor: themeData.hintColor.withAlpha(90),
       errorColor: Colors.red,
       cursorColor: accentColor,
       textTheme: themeData.textTheme.copyWith(
-        /// 解决中文hint不居中的问题 https://github.com/flutter/flutter/issues/40248
+
+          /// 解决中文hint不居中的问题 https://github.com/flutter/flutter/issues/40248
           subhead: themeData.textTheme.subhead
               .copyWith(textBaseline: TextBaseline.alphabetic)),
       textSelectionColor: accentColor.withAlpha(60),

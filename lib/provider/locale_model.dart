@@ -3,7 +3,6 @@ import 'package:i10n_app/config/storage_manager.dart';
 import 'package:i10n_app/generated/l10n.dart';
 
 class LocaleModel extends ChangeNotifier {
-
   ///配置语言语种
   static const localeValueList = ['', 'zh-CN', 'en'];
 
