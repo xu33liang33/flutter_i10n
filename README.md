@@ -1,3 +1,4 @@
+you can run this  demo with Flutter version -1.22.6
 ## 预备知识点
 
 [全局状态管理 - Provider](https://github.com/rrousselGit/provider)
